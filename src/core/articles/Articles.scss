@@ -1,0 +1,105 @@
+.custom-indicators {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: auto;
+    text-align: center;
+  }
+  
+.custom-indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  text-indent: -999px;
+  border-radius: 50%; /* Hace que los indicadores sean redondos */
+  background-color: black; /* Cambia el color de fondo de los indicadores */
+  cursor: pointer;
+}
+  
+.custom-indicators li.active {
+  background-color: white; /* Cambia el color de fondo del indicador activo */
+}
+
+.input-escribenos {
+  background-color: #F2F2F2;
+  border-left: none;
+  border-top: none;
+  box-shadow: 8px 8px 8px -5px rgba(0, 0, 0, 0.5), 0 5px 5px -5px rgba(0, 0, 0, 0.5);
+}
+
+.text-input {
+  text-align: left;
+  font-family: 'Inter';
+  line-height: 20px;
+  color: #393939;
+  font-size: 12px;
+}
+
+.col-text-slider {
+  padding-top: 15px;
+  padding-left: 50px;
+}
+
+.col-text-slider-btn{
+  padding-top: 35px;
+  padding-left: 50px;
+}
+
+.title-text-slider {
+  font-family: "Poppins";
+  font-weight: bold;
+  line-height: 24px;
+  color: #393939;
+  font-size: 21px;
+  text-align: left;
+}
+
+.text-slider {
+  text-align: left;
+  font-family: 'Inter';
+  line-height: 20px;
+  color: #393939;
+  font-size: 12px;
+}
+
+.ver-btn {
+  height: 40px;
+  width: 100%;
+  border: none;
+  border-radius: 12px;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 30px;
+  text-align: center;
+  background-color: #0EB0F1;
+  color: #ffffff;
+  left: 132px;
+  z-index: 2;
+  border-radius: 26px;
+}
+
+.enviar-btn {
+  text-align: end;
+}
+
+.ver-btn-enviar {
+  height: 40px;
+  width: 35%;
+  border: none;
+  border-radius: 12px;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 30px;
+  text-align: center;
+  background-color: #0EB0F1;
+  color: #ffffff;
+  left: 132px;
+  z-index: 2;
+  border-radius: 26px;
+}
+

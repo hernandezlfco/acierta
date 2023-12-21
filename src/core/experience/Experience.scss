@@ -1,0 +1,37 @@
+.content-experience {
+  width: 100%;
+  background-color: #F2F2F2;
+  height: auto;
+  padding-top: 20px;
+}
+
+.img-cuadros {
+  padding-left: 150px;
+}
+
+.row-2 {
+  margin-top: 30px;
+}
+
+.content-experience > .container {
+  height: 20vh;
+}
+
+.our-experience {
+  padding-left: 20px;
+  font-family: "Poppins";
+  font-weight: 600;
+  color: #085878;
+  font-size: 25px;
+}
+
+.centrar-imagen{
+  display: flex;
+}
+
+
+@media (max-width: 1198px) {
+  .img-cuadros {
+    padding-left: inherit;
+  }
+}

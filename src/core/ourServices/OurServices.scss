@@ -1,0 +1,98 @@
+.card-diagnostico {
+    width: 21rem;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-left: none;
+    border-top: none;
+    box-shadow: 8px 8px 8px -5px rgba(0, 0, 0, 0.5), 0 5px 5px -5px rgba(0, 0, 0, 0.5);
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-radius: 0px;
+    height: 450px;
+}
+
+.row-card-one{
+    margin-top: 50px;
+}
+
+.img-services {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 30%;
+    height: 90px;
+}
+
+.title-services {
+    font-family: "Poppins";
+    font-weight: bold;
+    line-height: 24px;
+    color: #393939;
+    font-size: 21px;
+    text-align: left;
+}
+
+.text-services {
+    text-align: left;
+    font-family: 'Inter';
+    line-height: 20px;
+    color: #393939;
+    font-size: 12px;
+}
+
+
+.more {
+    height: 40px;
+    width: 100%;
+    border: none;
+    border-radius: 12px;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #0EB0F1;
+    color: #ffffff;
+    left: 132px;
+    z-index: 2;
+    border-radius: 26px;
+}
+
+
+.img-services-cuadrado {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    height: 90px;
+}
+
+.content-text-info{
+    margin-top: 28px;
+}
+
+
+.card-services-cuadrado {
+    border-left: none;
+    border-top: none;
+    box-shadow: 8px 8px 8px -5px rgba(0, 0, 0, 0.5), 0 5px 5px -5px rgba(0, 0, 0, 0.5);
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-radius: 0px;
+    height: 300px;
+}
+
+
+.more-cuadrado {
+    height: 40px;
+    width: 30%;
+    border: none;
+    border-radius: 12px;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #0EB0F1;
+    color: #ffffff;
+    left: 132px;
+    z-index: 2;
+    border-radius: 26px;
+}

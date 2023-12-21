@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+
+$backgroundColor: #ffffff;
+$buttonColor: #0EB0F1;
+
+
+.nav-link {
+  text-decoration: none;
+  color: #0EB0F1;
+  font-family: "Poppins";
+  font-size: 23px;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.d-flex{
+  margin-left: auto !important;
+}
+
+
+.initSesion,
+.personas {
+    top: 0;
+    left: 0;
+}
+
+.initSesion {
+  height: 30px;
+  border: none;
+  border-radius: 12px;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 30px;
+  text-align: center;
+  background-color: $buttonColor;
+  color: #ffffff;
+  left: 132px;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.personas {
+  z-index: 1;
+  height: 30px;
+  border: none;
+  border-radius: 9px;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 30px;
+  text-align: center;
+  cursor: pointer;
+}
