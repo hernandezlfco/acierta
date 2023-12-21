@@ -1,9 +1,9 @@
 import React from 'react';
 import './Publications.scss';
 import publications from '../../resources/svg/publications.svg';
-import category from '../../resources/svg/category.svg';
+import category from '../../resources/img/category.png';
 
-import categoryImg from '../../resources/svg/category-img.svg';
+import scoreCard from '../../resources/svg/score-card.svg';
 
 
 
@@ -31,7 +31,7 @@ const Publications = () => {
               <Col xl="6">
                 <Card className="card-category">
                   <Row className="justify-content-center">
-                    <img alt="categoria" className="img-category-card" src={categoryImg}/>
+                    <img alt="categoria" className="img-category-card" src={scoreCard}/>
                   </Row>
                   <CardBody>
                     <CardTitle className="title-category">
@@ -48,7 +48,7 @@ const Publications = () => {
               <Col xl="6">
                 <Card className="card-category">
                   <Row className="justify-content-center">
-                    <img alt="categoria" className="img-category-card" src={categoryImg}/>
+                    <img alt="categoria" className="img-category-card" src={scoreCard}/>
                   </Row>
                   <CardBody>
                     <CardTitle className="title-category">
@@ -67,7 +67,7 @@ const Publications = () => {
               <Col xl="6">
                 <Card className="card-category">
                   <Row className="justify-content-center">
-                    <img alt="categoria" className="img-category-card" src={categoryImg}/>
+                    <img alt="categoria" className="img-category-card" src={scoreCard}/>
                   </Row>
                   <CardBody>
                     <CardTitle className="title-category">
@@ -84,7 +84,7 @@ const Publications = () => {
               <Col xl="6">
                 <Card className="card-category">
                   <Row className="justify-content-center">
-                    <img alt="categoria" className="img-category-card" src={categoryImg}/>
+                    <img alt="categoria" className="img-category-card" src={scoreCard}/>
                   </Row>
                   <CardBody>
                     <CardTitle className="title-category">

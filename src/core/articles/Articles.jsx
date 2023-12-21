@@ -1,46 +1,45 @@
-//import React from 'react';
-import React, { useState } from 'react';
-/*import cuadros from '../../resources/svg/cuadros.svg';
-import diagnostico from '../../resources/img/Diagnostico.png';
-import scoredynamics from '../../resources/img/Scoredynamics.png';
-import mercadeo from '../../resources/img/Mercadeo.png';
-import buro from '../../resources/img/buro.png';
-import analisis from '../../resources/img/analisis.png';*/
+//import React, { useState } from 'react';
+import React from 'react';
+
+
 import agenda from '../../resources/svg/agenda.svg';
-import articles from '../../resources/svg/articles.svg';
+//import logo from '../../resources/img/logo.png';
+//import logo from '../../resources/img/test.png';
 import escribenos from '../../resources/svg/escribenos.svg';
-import { Row, Col, Container, Carousel, CarouselItem, CarouselIndicators, Form, FormGroup, Label, Input } from 'reactstrap';
+//import { Carousel, CarouselItem, CarouselIndicators } from 'reactstrap';
+import { Row, Col, Container, Form, FormGroup, Label, Input } from 'reactstrap';
+
 import './Articles.scss';
 
 
 
-const items = [
+/*const items = [
   {
-    src: articles,
+    src: logo,
     altText: 'Slide 1',
     caption: 'Slide 1 Caption',
   },
   {
-    src: articles,
+    src: logo,
     altText: 'Slide 2',
     caption: 'Slide 2 Caption',
   },
   {
-    src: articles,
+    src: logo,
     altText: 'Slide 3',
     caption: 'Slide 3 Caption',
   },
   {
-    src: articles,
+    src: logo,
     altText: 'Slide 4',
     caption: 'Slide 4 Caption',
   },
-];
+];*/
 
 
 const OurServices = () => {
 
-
+  /*
   const [activeIndex, setActiveIndex] = useState(0);
   const [animating, setAnimating] = useState(false);
 
@@ -71,7 +70,7 @@ const OurServices = () => {
         <img src={item.src} alt={item.altText} />
       </CarouselItem>
     );
-  });
+  });*/
 
 
   return (
@@ -87,10 +86,10 @@ const OurServices = () => {
               </Col>
             </Row>
             <Row>
-              <Carousel activeIndex={activeIndex} next={next} previous={previous}>
+              {/*<Carousel activeIndex={activeIndex} next={next} previous={previous}>
                 <CarouselIndicators items={items} activeIndex={activeIndex} className="custom-indicators" onClickHandler={goToIndex} />
                 {slides}
-              </Carousel>
+              </Carousel>*/}
             </Row>
 
             
