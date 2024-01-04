@@ -1,36 +1,18 @@
-//import logo from './platzi.webp';
+
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Index from './pages/Index/Index'
+import Services from './pages/services/Services'
 import './App.scss';
-import { Container } from 'reactstrap';
-import Navbar from './core/header/navbar/NavbarComponent'
-import Slider from './core/sliders/Slider'
-import Experience from './core/experience/Experience'
-import OurServices from './core/ourServices/OurServices'
-import Articles from './core/articles/Articles'
-import Publications from './core/publications/Publications'
-import Score from './core/score/Score'
-import Favorites from './core/favorites/Favorites'
-import Footer from './core/footer/Footer'
-
-
-
-
-
-
 
 
 const App = () => {
   return (
-    <Container>
-      <Navbar />
-      <Slider />
-      <Experience />
-      <OurServices />
-      <Articles />
-      <Publications />
-      <Score />
-      <Favorites />
-      <Footer />
-    </Container>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Index />} />
+          <Route path="/services" element={<Services/>} />
+        </Routes>
+      </Router>
   );
 };
 

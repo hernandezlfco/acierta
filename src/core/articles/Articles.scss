@@ -14,13 +14,13 @@
   height: 10px;
   margin: 0 5px;
   text-indent: -999px;
-  border-radius: 50%; /* Hace que los indicadores sean redondos */
-  background-color: black; /* Cambia el color de fondo de los indicadores */
+  border-radius: 50%;
+  background-color: black;
   cursor: pointer;
 }
   
 .custom-indicators li.active {
-  background-color: white; /* Cambia el color de fondo del indicador activo */
+  background-color: white;
 }
 
 .input-escribenos {
@@ -101,5 +101,46 @@
   left: 132px;
   z-index: 2;
   border-radius: 26px;
+}
+
+.articles-title {
+  padding-left: 2%;
+  font-family: "Poppins";
+  font-weight: 600;
+  color: #085878;
+  font-size: 25px;
+  padding-top: 15px;
+}
+
+
+@media (max-width: 1199px) {
+  .col-text-slider-btn {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: unset;
+  }
+
+  .ver-btn {
+    height: 40px;
+    width: 30%;
+    border: none;
+    border-radius: 12px;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #0EB0F1;
+    color: #ffffff;
+    left: 132px;
+    z-index: 2;
+    border-radius: 26px;
+  }
+}
+
+@media (max-width: 358px) {
+  .text-input {
+    font-size: 10px;
+  }
 }
 

@@ -17,10 +17,6 @@ $buttonColor: #0EB0F1;
   text-align: center;
 }
 
-.d-flex{
-  margin-left: auto !important;
-}
-
 
 .initSesion,
 .personas {
@@ -34,7 +30,7 @@ $buttonColor: #0EB0F1;
   border-radius: 12px;
   font-family: "Poppins";
   font-weight: 500;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 30px;
   text-align: center;
   background-color: $buttonColor;
@@ -51,8 +47,77 @@ $buttonColor: #0EB0F1;
   border-radius: 9px;
   font-family: "Poppins";
   font-weight: 500;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 30px;
   text-align: center;
   cursor: pointer;
 }
+
+
+.desktop {
+  display: block; 
+}
+
+
+.mobile {
+  display: none; 
+}
+
+@media (max-width: 1199px) and (min-width: 768px) {
+  .nav-link {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  .mobile {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #0EB0F1;
+  }
+
+  .navbar-nav{
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .item-desktop {
+    display: none; 
+  }
+
+  .d-flex-btn {
+    padding-top: 65px;
+  }
+
+
+  .nav-link {
+    color: #ffffff;
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+
+  .nav-item-title {
+    font-family: "Poppins";
+    font-size: 15px;
+    color: #ffff;
+  }
+}
+
+
+@media (max-width: 464px) {
+  .initSesion {
+    font-size: 10px;
+  }
+
+  .personas{
+    font-size: 10px;
+  }
+}
+
+
+

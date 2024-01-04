@@ -1,16 +1,26 @@
+/* Variables */
+$padding-top-category: 50px;
+$padding-left-category: 50px;
+$button-width: 40%;
+
+/* Estilos */
 .content-category {
-    padding-top: 50px;
+    padding-top: $padding-top-category;
 }
 
 .img-category {
-    padding-left: 50px;
+    padding-left: $padding-left-category;
+    width: 100%;
+    max-width: 100%;  
+    height: auto;     
+    display: block;
+    margin: 0 auto;   
 }
 
 .img-category-card {
     margin-top: 28px;
     margin-bottom: 20px;
 }
-
 
 .card-category {
     width: 12rem;
@@ -34,13 +44,9 @@
     text-align: left;
 }
 
-.row-category {
-    padding-top: 50px;
-}
-
 .more-category {
     height: 40px;
-    width: 40%;
+    width: $button-width;
     border: none;
     border-radius: 12px;
     font-family: "Poppins";
@@ -53,4 +59,22 @@
     left: 132px;
     z-index: 2;
     border-radius: 26px;
+}
+
+.cards-padding {
+    padding-bottom: 15px;
+}
+
+@media (max-width: 1199px) {
+    .img-category {
+        padding-left: unset;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .card-category {
+        width: 10rem;
+        height: 270px;
+    }
 }

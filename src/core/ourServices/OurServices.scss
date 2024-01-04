@@ -1,26 +1,41 @@
+.view-cart {
+    display: none;
+}
+
+.screen-cart{
+    display: block;
+    margin-top: 50px;
+}
+
 .card-diagnostico {
-    width: 21rem;
-    padding-left: 15px;
-    padding-right: 15px;
-    border-left: none;
-    border-top: none;
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
     box-shadow: 8px 8px 8px -5px rgba(0, 0, 0, 0.5), 0 5px 5px -5px rgba(0, 0, 0, 0.5);
     border-right: 5px solid transparent;
     border-bottom: 5px solid transparent;
+    border-left: none;
+    border-top: none;
     border-radius: 0px;
-    height: 450px;
-}
+    height: 320px;
+  }
 
 .row-card-one{
     margin-top: 50px;
 }
 
 .img-services {
-    margin-top: 60px;
-    margin-bottom: 60px;
+    max-width: 100%;
+    height: auto;
     width: 30%;
-    height: 90px;
 }
+
+
+.title-services,
+.text-services {
+    text-align: left;
+}
+  
 
 .title-services {
     font-family: "Poppins";
@@ -28,7 +43,6 @@
     line-height: 24px;
     color: #393939;
     font-size: 21px;
-    text-align: left;
 }
 
 .text-services {
@@ -41,8 +55,9 @@
 
 
 .more {
-    height: 40px;
     width: 100%;
+    max-width: 200px;
+    margin: 0 auto;  
     border: none;
     border-radius: 12px;
     font-family: "Poppins";
@@ -70,19 +85,24 @@
 
 
 .card-services-cuadrado {
+    width: 100%;
+    max-width: 490px;
+    margin: 0 auto;
     border-left: none;
     border-top: none;
     box-shadow: 8px 8px 8px -5px rgba(0, 0, 0, 0.5), 0 5px 5px -5px rgba(0, 0, 0, 0.5);
     border-right: 5px solid transparent;
     border-bottom: 5px solid transparent;
     border-radius: 0px;
-    height: 300px;
+    height: auto;
 }
 
 
 .more-cuadrado {
+    width: 100%;
+    max-width: 150px;
+    margin: 0 auto;
     height: 40px;
-    width: 30%;
     border: none;
     border-radius: 12px;
     font-family: "Poppins";
@@ -95,4 +115,23 @@
     left: 132px;
     z-index: 2;
     border-radius: 26px;
+}
+
+
+@media (max-width: 1199px) {
+    .card-cont {
+        padding-bottom: 15px;
+    }
+
+    .card-diagnostico {
+        height: auto;
+    }
+
+    .view-cart {
+        display: block;
+    }
+
+    .screen-cart{
+        display: none;
+    }
 }

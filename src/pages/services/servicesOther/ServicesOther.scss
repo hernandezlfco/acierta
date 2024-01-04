@@ -1,0 +1,137 @@
+.view-cart {
+    display: none;
+}
+
+.screen-cart{
+    display: block;
+    margin-top: 50px;
+}
+
+.card-diagnostico {
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    box-shadow: 8px 8px 8px -5px rgba(0, 0, 0, 0.5), 0 5px 5px -5px rgba(0, 0, 0, 0.5);
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: none;
+    border-top: none;
+    border-radius: 0px;
+    height: 320px;
+  }
+
+.row-card-one{
+    margin-top: 50px;
+}
+
+.img-services {
+    max-width: 100%;
+    height: auto;
+    width: 30%;
+}
+
+
+.title-services,
+.text-services {
+    text-align: left;
+}
+  
+
+.title-services {
+    font-family: "Poppins";
+    font-weight: bold;
+    line-height: 24px;
+    color: #393939;
+    font-size: 21px;
+}
+
+.text-services {
+    text-align: left;
+    font-family: 'Inter';
+    line-height: 20px;
+    color: #393939;
+    font-size: 12px;
+}
+
+
+.more {
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;  
+    border: none;
+    border-radius: 12px;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #0EB0F1;
+    color: #ffffff;
+    left: 132px;
+    z-index: 2;
+    border-radius: 26px;
+}
+
+
+.img-services-cuadrado {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    height: 90px;
+}
+
+.content-text-info{
+    margin-top: 28px;
+}
+
+
+.card-services-cuadrado {
+    width: 100%;
+    max-width: 490px;
+    margin: 0 auto;
+    border-left: none;
+    border-top: none;
+    box-shadow: 8px 8px 8px -5px rgba(0, 0, 0, 0.5), 0 5px 5px -5px rgba(0, 0, 0, 0.5);
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-radius: 0px;
+    height: auto;
+}
+
+
+.more-cuadrado {
+    width: 100%;
+    max-width: 150px;
+    margin: 0 auto;
+    height: 40px;
+    border: none;
+    border-radius: 12px;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #0EB0F1;
+    color: #ffffff;
+    left: 132px;
+    z-index: 2;
+    border-radius: 26px;
+}
+
+
+@media (max-width: 1199px) {
+    .card-cont {
+        padding-bottom: 15px;
+    }
+
+    .card-diagnostico {
+        height: auto;
+    }
+
+    .view-cart {
+        display: block;
+    }
+
+    .screen-cart{
+        display: none;
+    }
+}

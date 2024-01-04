@@ -1,10 +1,12 @@
 import React from 'react';
 import './OurServices.scss';
-import diagnostico from '../../resources/img/Diagnostico.png';
-import scoredynamics from '../../resources/img/Scoredynamics.png';
-import mercadeo from '../../resources/img/Mercadeo.png';
-import buro from '../../resources/img/buro.png';
-import analisis from '../../resources/img/analisis.png';
+
+import diagnostico from '../../resources/svg/vector3.svg';
+import scoredynamics from '../../resources/svg/vector4.svg';
+import mercadeo from '../../resources/svg/vector5.svg';
+import buro from '../../resources/svg/vector1.svg';
+import analisis from '../../resources/svg/vector1.svg';
+
 import ourServices from '../../resources/svg/ourServices.svg';
 
 
@@ -23,7 +25,7 @@ const OurServices = () => {
           </Col>
         </Row>
         <Row className="justify-content-center text-center row-card-one">
-          <Col xs={12} sm={6} md={12} lg={12} xl={4}>
+          <Col className="card-cont" xs={12} sm={6} md={6} lg={6} xl={4}>
             <Card className="card-diagnostico">
               <Row className="justify-content-center">
                 <img alt="diagnostico" className="img-services" src={diagnostico}/>
@@ -34,14 +36,14 @@ const OurServices = () => {
                 </CardTitle>
                 <CardText className="text-services">
                   Identificación brechas, Capacitación mejores prácticas, Validación y calibración modelos, 
-                  Segmentación tiempo real, Consultoría analítica especializada, Gestión integral de riesgos, 
+                  Segmentación tiempo real, Consultoría<br/> analítica especializada, Gestión integral de<br/> riesgos, 
                   Acompañamiento técnico.
                 </CardText>
                 <button className="more" size="lg">Conoce más</button>
               </CardBody>
             </Card>
           </Col>
-          <Col xs={12} sm={6} md={12} lg={12} xl={4}>
+          <Col className="card-cont" xs={12} sm={6} md={6} lg={6} xl={4}>
             <Card className="card-diagnostico">
               <Row className="justify-content-center">
                 <img alt="diagnostico" className="img-services" src={scoredynamics}/>
@@ -51,16 +53,16 @@ const OurServices = () => {
                   Score Dynamics
                 </CardTitle>
                 <CardText className="text-services">
-                  Modelos de originación y behavior, 
-                  Modelos de desersión, Modelos pérdida
-                  esperada, Atributos a la medida, Modelos
+                  Modelos de originación y behavior,<br/>
+                  Modelos de desersión, Modelos pérdida<br/>
+                  esperada, Atributos a la medida, Modelos<br/>
                   de rentabilidad, Modelos predictivos «no-bancarizados».
                 </CardText>
                 <button className="more" size="lg">Conoce más</button>
               </CardBody>
             </Card>
           </Col>
-          <Col xs={12} sm={6} md={12} lg={12} xl={4}>
+          <Col className="card-cont" xs={12} sm={6} md={6} lg={6} xl={4}>
             <Card className="card-diagnostico">
               <Row className="justify-content-center">
                 <img alt="diagnostico" className="img-services" src={mercadeo}/>
@@ -70,10 +72,49 @@ const OurServices = () => {
                   Mercadeo analítico
                 </CardTitle>
                 <CardText className="text-services">
-                  Consultoría especializada, Modelos de
-                  respuesta, Mejoras en los costos de 
-                  adquisición, Diseño y ejecución de
+                  Consultoría especializada, Modelos de<br/>
+                  respuesta, Mejoras en los costos de <br/>
+                  adquisición, Diseño y ejecución de<br/>
                   campañas, Acompañamiento técnico.
+                </CardText>
+                <button className="more" size="lg">Conoce más</button>
+              </CardBody>
+            </Card>
+          </Col>
+          <Col className="card-cont view-cart" xs={12} sm={6} md={6} lg={6} xl={4}>
+            <Card className="card-diagnostico">
+              <Row className="justify-content-center">
+                <img alt="diagnostico" className="img-services" src={buro}/>
+              </Row>
+              <CardBody>
+                <CardTitle className="title-services">
+                  Buro <br/>De crédito
+                </CardTitle>
+                <CardText className="text-services">
+                  Reportes de crédito personalizados,<br/>
+                  servicios en batch con atributos a la<br/>
+                  medida, Hosting modelos a la <br/>medida, Dashboards calidad de data,<br/>
+                  modelos segmentación «en línea».
+                </CardText>
+                <button className="more" size="lg">Conoce más</button>
+              </CardBody>
+            </Card>
+          </Col>
+          <Col className="card-cont view-cart" xs={12} sm={6} md={6} lg={6} xl={4}>
+            <Card className="card-diagnostico">
+              <Row className="justify-content-center">
+                <img alt="diagnostico" className="img-services" src={analisis}/>
+              </Row>
+              <CardBody>
+                <CardTitle className="title-services">
+                  Análisis<br/>Macro-crediticio
+                </CardTitle>
+                <CardText className="text-services">
+                    Modelos econométricos, Análisis<br/>
+                    sectoriales, Análisis crediticia mercado,<br/>
+                    Comportamiento consumidores, Tendencias<br/>
+                    comparativas [productos / instituciones]<br/>
+                    Análisis inclusión financiera.
                 </CardText>
                 <button className="more" size="lg">Conoce más</button>
               </CardBody>
@@ -83,7 +124,7 @@ const OurServices = () => {
       </Container>
 
 
-      <Container>
+      <Container className="screen-cart">
         <Row>
           <Col xl="6">
             <Card className="card-services-cuadrado">

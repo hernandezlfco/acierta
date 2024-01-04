@@ -2,9 +2,9 @@
 import React from 'react';
 
 
+
 import agenda from '../../resources/svg/agenda.svg';
-//import logo from '../../resources/img/logo.png';
-//import logo from '../../resources/img/test.png';
+//import logo from '../../resources/svg/calculando-min.svg';
 import escribenos from '../../resources/svg/escribenos.svg';
 //import { Carousel, CarouselItem, CarouselIndicators } from 'reactstrap';
 import { Row, Col, Container, Form, FormGroup, Label, Input } from 'reactstrap';
@@ -37,13 +37,13 @@ import './Articles.scss';
 ];*/
 
 
-const OurServices = () => {
+const Articles = () => {
 
-  /*
-  const [activeIndex, setActiveIndex] = useState(0);
-  const [animating, setAnimating] = useState(false);
+  
+  //const [activeIndex, setActiveIndex] = useState(0);
+  //const [animating, setAnimating] = useState(false);
 
-  const next = () => {
+  /*const next = () => {
     if (animating) return;
     const nextIndex = activeIndex === items.length - 1 ? 0 : activeIndex + 1;
     setActiveIndex(nextIndex);
@@ -76,21 +76,23 @@ const OurServices = () => {
   return (
     
     <Container>
-      <Container>
+      <Container fluid>
         <Row>
           <Col xl="8">
             <Row>
-              <Col xs={12} sm={6} md={12} lg={12} xl={12}>
+              <Col xs={12} sm={12} md={12} lg={12} xl={12}>
                 <img className="img-cuadros" style={{ width:'width: 14%' }} src={agenda} alt="Servicios" />
-                <span className="our-experience">Nuevos Artículos</span> 
+                <span className="articles-title">Nuevos Artículos</span> 
               </Col>
             </Row>
-            <Row>
-              {/*<Carousel activeIndex={activeIndex} next={next} previous={previous}>
+            <br />
+            <br />
+            {/*<Row>
+              <Carousel activeIndex={activeIndex} next={next} previous={previous}>
                 <CarouselIndicators items={items} activeIndex={activeIndex} className="custom-indicators" onClickHandler={goToIndex} />
                 {slides}
-              </Carousel>*/}
-            </Row>
+              </Carousel>
+            </Row>*/}
 
             
             <Row>
@@ -100,7 +102,7 @@ const OurServices = () => {
                   Reportes de crédito personalizados, Servicios en batch<br/>con atributos a la medida, Hosting modelos a la medida.
                 </p>
               </Col>
-              <Col className="col-text-slider-btn" xl="3">
+              <Col className="col-text-slider-btn d-flex justify-content-center" xs={12} sm={12} md={12} lg={12} xl={3}>
                 <button className="ver-btn" size="lg">Ver</button>
               </Col>
             </Row>
@@ -109,12 +111,13 @@ const OurServices = () => {
           </Col>
           <Col xl="4">
             <Row>
-              <Col xs={12} sm={6} md={12} lg={12} xl={12}>
+              <Col xs={12} sm={12} md={12} lg={12} xl={12}>
                 <img className="img-cuadros" style={{ width:'width: 14%' }} src={escribenos} alt="Servicios" />
-                <span className="our-experience">Escríbenos</span> 
+                <span className="articles-title">Escríbenos</span> 
               </Col>
             </Row>
-
+            <br />
+            <br />
             <Form>
               <Row>
                 <FormGroup>
@@ -145,7 +148,7 @@ const OurServices = () => {
                 </FormGroup>
               </Row>
               <Row>
-                <Col md={4}>
+                <Col md={4} xs={4} sm={4} lg={4} xl={4}>
                   <FormGroup>
                     <Label className="text-input" for="codigo">
                       Código de área
@@ -159,7 +162,7 @@ const OurServices = () => {
                     />
                   </FormGroup>
                 </Col>
-                <Col md={8}>
+                <Col md={8} xs={8} sm={8} lg={8} xl={8}>
                   <FormGroup>
                     <Label className="text-input" for="telefono">
                       Teléfono
@@ -206,4 +209,4 @@ const OurServices = () => {
   );
 };
 
-export default OurServices;
+export default Articles;

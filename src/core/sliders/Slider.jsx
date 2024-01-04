@@ -68,14 +68,7 @@ const Slider = () => {
   });
 
   return (
-    <div>
-      <style>
-        {`.custom-tag {
-              max-width: 100%;
-              height: 500px;
-              background: black;
-            }`}
-      </style>
+    <div className="carousel-container">
       <Carousel style={{ backgroundColor: 'white' }} activeIndex={activeIndex} interval={null} next={next} previous={previous}>
         <CarouselIndicators
           items={items}
@@ -95,6 +88,7 @@ const Slider = () => {
           onClickHandler={next}
         />
       </Carousel>
+      <button className="moreKnow">Saber más</button>
     </div>
   );
 }

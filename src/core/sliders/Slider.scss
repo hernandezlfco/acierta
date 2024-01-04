@@ -1,3 +1,7 @@
+.carousel-container {
+  position: relative;
+}
+
 .carousel-item {
   text-align: center;
 }
@@ -11,4 +15,23 @@
   height: 50px !important;
   background-color: #D9D9D9;
   border-radius: 50%;
+}
+
+
+.moreKnow {
+  height: 40px;
+  width: 150px;
+  border: none;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 30px;
+  text-align: center;
+  background-color: #0EB0F1;
+  color: #ffffff;
+  margin: 10px auto;
+  display: block;
+  border-radius: 26px;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
