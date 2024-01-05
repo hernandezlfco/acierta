@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/acierta/static/css/main.d601289a.css",
+    "main.js": "/acierta/static/js/main.33b8a01d.js",
+    "static/media/test.png": "/acierta/static/media/test.d31dca8f3cb56168198f.png",
+    "static/media/category.png": "/acierta/static/media/category.fcb83a8bb9a11bca8333.png",
+    "static/media/nissan.svg": "/acierta/static/media/nissan.4f860acadc68c80eed8f4b4f37952824.svg",
+    "static/media/score-card.svg": "/acierta/static/media/score-card.7de05402821a1587c10aa77d0e745edb.svg",
+    "static/media/xce.svg": "/acierta/static/media/xce.375430a38667ea26510c50e566e2d164.svg",
+    "static/media/banorte.svg": "/acierta/static/media/banorte.a5fa3d115e6866e1891045af6fa0e54c.svg",
+    "static/media/at.svg": "/acierta/static/media/at.783d64b665c6779125f0381c5a437291.svg",
+    "static/media/hsbc.svg": "/acierta/static/media/hsbc.1ef7cfad64c979b3c1df6465f40d5bfa.svg",
+    "static/media/movistar.svg": "/acierta/static/media/movistar.39fd03e59845fafab0e02cbc77380a8b.svg",
+    "static/media/publications.svg": "/acierta/static/media/publications.365ba2c03de2a7281e6067e6d6060917.svg",
+    "static/media/vector4.svg": "/acierta/static/media/vector4.299c60a239ebfb9f0118e97d8fa9d649.svg",
+    "static/media/vector1.svg": "/acierta/static/media/vector1.34952600da3ea99c632b111c6982e53e.svg",
+    "static/media/agenda.svg": "/acierta/static/media/agenda.a4dfbe2a6b37e5d92ce0d6a2e6e48b72.svg",
+    "static/media/ourServices.svg": "/acierta/static/media/ourServices.8c63b68a55a708b664a4032f6d45ca2c.svg",
+    "static/media/cuadros.svg": "/acierta/static/media/cuadros.39ccd9fea24ae71bcaca94d2a17ad8c1.svg",
+    "static/media/vector5.svg": "/acierta/static/media/vector5.aab2473ab40877372302eec257a3e068.svg",
+    "static/media/slick.svg": "/acierta/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/acierta/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/vector3.svg": "/acierta/static/media/vector3.19d848070d68ca41985e85eccf9b8cc3.svg",
+    "static/media/slick.ttf": "/acierta/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/score.svg": "/acierta/static/media/score.0090c165db26459c0343247658e917cb.svg",
+    "static/media/email.svg": "/acierta/static/media/email.96d9707d9f0d8b0cf9ba9bfc01e44909.svg",
+    "static/media/acierta_logo_footer.svg": "/acierta/static/media/acierta_logo_footer.66102d2d4cf3d28f78c0d0bd673e299c.svg",
+    "static/media/slick.woff": "/acierta/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/instagram.svg": "/acierta/static/media/instagram.b4b5d480c11324b6a2cae6cdf08560ee.svg",
+    "static/media/phone.svg": "/acierta/static/media/phone.f9fefc0f9732ab3957401fa41a919c91.svg",
+    "static/media/favorite.svg": "/acierta/static/media/favorite.7e4b47b04e2f4e60ba48e25a1e6bc9f3.svg",
+    "static/media/escribenos.svg": "/acierta/static/media/escribenos.e4714aa06e65ee92b86b883213d11e39.svg",
+    "static/media/linke.svg": "/acierta/static/media/linke.e69c86bb67012fbf1d8ed17104c33e4e.svg",
+    "index.html": "/acierta/index.html",
+    "static/media/location.svg": "/acierta/static/media/location.298a7ea3012361778b65697c1e4ce7e8.svg",
+    "main.d601289a.css.map": "/acierta/static/css/main.d601289a.css.map",
+    "main.33b8a01d.js.map": "/acierta/static/js/main.33b8a01d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d601289a.css",
+    "static/js/main.33b8a01d.js"
+  ]
+}
